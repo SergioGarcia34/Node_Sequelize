@@ -1,0 +1,10 @@
+sequelize
+    migration 
+        Cada migration serve para uma tabela
+            comandos: yarn sequelize  migrate:create --name nome, db:migrate 
+        devemos criar o arquivo .sequelizerc para o sequelize saber onde estão as configurações.
+
+sequelize-cli -D
+postgres
+express
+nodemon
