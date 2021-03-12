@@ -6,5 +6,7 @@ sequelize
 
 sequelize-cli -D
 postgres
+    as tabelas devem ser em minusculo, senão vai criar com "User" e o postgres aceita com "".
 express
+    podemos criar rotas get('users/:user_id/address') e depois pegar o user_id em params
 nodemon
